@@ -9,10 +9,10 @@
            sync-j="4" />
            
   <remote  name="gitlab"
-           fetch="https://gitlab.com/" />
+           fetch=".."  />
            
   <remote  name="github"
-           fetch="https://github.com" />
+           fetch=".." />
 
   <remote  name="lineage"
            fetch="https://github.com/lineageOS/" />
