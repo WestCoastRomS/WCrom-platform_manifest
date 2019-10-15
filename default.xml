@@ -12,7 +12,7 @@
            fetch=".."  />
            
   <remote  name="github"
-           fetch=".." />
+           fetch="Https://github.com/westcoastroms/" />
 
   <remote  name="lineage"
            fetch="https://github.com/lineageOS/" />
