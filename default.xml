@@ -26,8 +26,8 @@
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" remote="aosp" >
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
-    <linkfile src="root.bp" dest="Android.bp" remote="aosp" >
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" remote="aosp" >
+    <linkfile src="root.bp" dest="Android.bp"  >
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash"  >
   </project>
   <project path="art" name="platform/art" groups="pdk" remote="aosp" >
   <project path="bionic" name="platform/bionic" groups="pdk" remote="aosp" >
@@ -508,8 +508,8 @@
   <project path="hardware/qcom/sdm710/vr" name="platform/hardware/qcom/sdm710/vr" groups="qcom_sdm710" remote="aosp" >
   <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="qcom_sdm845" remote="aosp" >
   <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" groups="vendor,qcom_sdm845" >
-    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" remote="aosp" >
-    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" remote="aosp" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk"  >
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp"  >
   </project>
   <project path="hardware/qcom/sdm845/display" name="platform/hardware/qcom/sdm845/display" groups="qcom_sdm845" remote="aosp" >
   <project path="hardware/qcom/sdm845/gps" name="platform/hardware/qcom/sdm845/gps" groups="qcom_sdm845" remote="aosp" >
